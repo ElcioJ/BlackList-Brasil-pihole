@@ -1,0 +1,278 @@
+# ============================================================
+# BLACKLIST - Streaming de Música & Rádios Online (Brasil)
+# Formato: AdGuard Home / uBlock Origin
+# Versão: 1.1 | Data: 2026-06-24
+# Descrição: Bloqueia plataformas de streaming de música e
+#            rádios online para uso em ambiente corporativo.
+# ============================================================
+
+# --------------------------------------------------------------
+# [1] SPOTIFY
+# Plataforma de streaming de música mais popular do mundo.
+# Inclui domínios principais, CDN de áudio/vídeo e APIs.
+# --------------------------------------------------------------
+||spotify.com^
+||scdn.co^
+||pscdn.co^
+||spotifycdn.com^
+||spotifycdn.net^
+||spoti.fi^
+||byspotify.com^
+||spotifycharts.com^
+||spotifycodes.com^
+||spotify-everywhere.com^
+||spotify.design^
+||apresolve.spotify.com^
+||dealer.spotify.com^
+||ap.spotify.com^
+
+# --------------------------------------------------------------
+# [2] DEEZER
+# Plataforma de streaming francesa com forte presença no Brasil.
+# Inclui CDN de mídia, APIs e proxies de conteúdo.
+# --------------------------------------------------------------
+||deezer.com^
+||dzcdn.net^
+||e-cdns-proxy-2.deezer.com^
+||cdns-proxy.deezer.com^
+
+# --------------------------------------------------------------
+# [3] SOUNDCLOUD
+# Plataforma de streaming e upload de áudio independente.
+# Muito usada para músicas autorais e podcasts.
+# --------------------------------------------------------------
+||soundcloud.com^
+||sndcdn.com^
+
+# --------------------------------------------------------------
+# [4] TIDAL
+# Plataforma de streaming de alta fidelidade (HiFi/MQA).
+# Conhecida pelo áudio em qualidade lossless.
+# --------------------------------------------------------------
+||tidal.com^
+||wimpmusic.com^
+||listen.tidal.com^
+||desktop.tidal.com^
+
+# --------------------------------------------------------------
+# [5] AMAZON MUSIC
+# Serviço de streaming de música da Amazon.
+# --------------------------------------------------------------
+||music.amazon.com^
+||music.amazon.com.br^
+||amazonmusic.com^
+
+# --------------------------------------------------------------
+# [6] YOUTUBE MUSIC
+# Serviço de streaming de música do Google/YouTube.
+# ATENÇÃO: bloquear youtube.com impacta todos os serviços YouTube.
+# --------------------------------------------------------------
+||music.youtube.com^
+
+# --------------------------------------------------------------
+# [7] APPLE MUSIC
+# Serviço de streaming de música da Apple.
+# ATENÇÃO: pode impactar outros serviços Apple se bloqueado amplo.
+# --------------------------------------------------------------
+||music.apple.com^
+||audio.itunes.apple.com^
+||genius.apple.com^
+
+# --------------------------------------------------------------
+# [8] NAPSTER
+# Um dos primeiros serviços de streaming de música.
+# Ainda ativo com assinatura paga.
+# --------------------------------------------------------------
+||napster.com^
+
+# --------------------------------------------------------------
+# [9] MIXCLOUD
+# Plataforma de streaming para DJs, podcasts e rádios online.
+# --------------------------------------------------------------
+||mixcloud.com^
+
+# --------------------------------------------------------------
+# [10] BOOMPLAY
+# Serviço de streaming de música africano com presença global.
+# --------------------------------------------------------------
+||boomplay.com^
+
+# --------------------------------------------------------------
+# [11] RESSO / TIKTOK MUSIC
+# Serviço de streaming de música do grupo ByteDance (TikTok).
+# --------------------------------------------------------------
+||resso.com^
+||resstatic.com^
+
+# --------------------------------------------------------------
+# [12] QOBUZ
+# Plataforma de streaming de música em alta resolução.
+# Focada em qualidade audiófila (FLAC/Hi-Res).
+# --------------------------------------------------------------
+||qobuz.com^
+
+# --------------------------------------------------------------
+# [13] VAGALUME
+# Portal brasileiro de letras de música com rádio online.
+# --------------------------------------------------------------
+||vagalume.com.br^
+
+# --------------------------------------------------------------
+# [14] SUPERPLAYER
+# Plataforma brasileira de streaming e curadoria musical.
+# --------------------------------------------------------------
+||superplayer.fm^
+
+# --------------------------------------------------------------
+# [15] AGREGADORES DE RÁDIO ONLINE
+# Sites que reúnem e reproduzem streams de rádios de todo o mundo.
+# Funcionam como portais centralizadores de escuta online.
+# --------------------------------------------------------------
+||tunein.com^
+||radio.garden^
+||onlineradiobox.com^
+||mytuner-radio.com^
+||radios.com.br^
+||radio-ao-vivo.com^
+||online.radio.br^
+||radiosonlinebrasil.com.br^
+||radios-brasil.com^
+||tudoradio.com^
+||radiosaovivo.net^
+||frequenciabrasil.com.br^
+||radioline.co^
+||live365.com^
+||iheartradio.com^
+||listenlive.eu^
+||streema.com^
+||radioways.com^
+||cxradio.com.br^
+
+# --------------------------------------------------------------
+# [16] RÁDIOS NACIONAIS - GRANDES REDES
+# Principais emissoras brasileiras com transmissão online ao vivo.
+# Jovem Pan, CBN, Antena 1, Band, 89FM, 98FM, Gaúcha etc.
+# --------------------------------------------------------------
+||jovempan.com.br^
+||panflix.com.br^
+||cbn.com.br^
+||antena1.com.br^
+||mix.com.br^
+||89fm.com.br^
+||98fm.com.br^
+||band.com.br^
+||bandnews.com.br^
+||transamerica.com.br^
+||metropolitana.com.br^
+||metropolitanafm.com.br^
+||energia97.com.br^
+||energia.fm^
+||kissfm.com.br^
+||novabrasil.com.br^
+||radiogaucha.com.br^
+||gauchazh.clicrbs.com.br^
+||clubefm.com.br^
+
+# --------------------------------------------------------------
+# [17] RÁDIOS NACIONAIS - REGIONAIS E POPULARES
+# Emissoras com alcance regional e forte presença na internet.
+# --------------------------------------------------------------
+||jbfm.com.br^
+||supertupi.com.br^
+||radiomix.com.br^
+||saudadefm.com.br^
+||alpha.fm.br^
+||massafm.com.br^
+||radiomassa.com.br^
+||flashback.fm.br^
+||radiocidade.com.br^
+||radiocultura.com.br^
+||classicpan.com.br^
+||bossanovaradio.com.br^
+
+# --------------------------------------------------------------
+# [18] INFRAESTRUTURA DE STREAMING PARA RÁDIOS
+# Plataformas e servidores usados por emissoras brasileiras para
+# transmitir áudio online. Bloquear impede que apps e sites de
+# rádio consigam entregar o stream de áudio ao usuário.
+# --------------------------------------------------------------
+||brasilstream.com.br^
+||brlogic.com^
+||hoost.com.br^
+||sejahost.com.br^
+||brascast.com^
+||brstream.com.br^
+||abastreaming.com^
+||centova.com^
+||shoutca.st^
+||shoutcast.com^
+||icecast.org^
+||radionomy.com^
+||streamguys.com^
+||airtime.pro^
+||sonic.studio^
+
+# --------------------------------------------------------------
+# [19] STREAMTHEWORLD / AUDACY
+# CDN de streaming de rádio ao vivo usado por grandes emissoras
+# brasileiras e internacionais (ex: Metropolitana FM, Mix FM).
+# Bloquear impede a entrega do stream de áudio dessas rádios.
+# --------------------------------------------------------------
+||streamtheworld.com^
+||streamtheworld.net^
+||live.streamtheworld.com^
+||NS01.streamtheworld.net^
+||NS02.streamtheworld.net^
+||NS03.streamtheworld.net^
+||NS04.streamtheworld.net^
+
+# --------------------------------------------------------------
+# [20] UPX TECHNOLOGIES - CDN DE STREAMING DE RÁDIO
+# Infraestrutura brasileira de streaming usada por centenas de
+# rádios nacionais. Bloquear interrompe o áudio das rádios
+# que utilizam a plataforma UPX como servidor de stream.
+# --------------------------------------------------------------
+||upx.com.br^
+||upx.net.br^
+||live.cdn.upx.com^
+||sc4s.cdn.upx.com^
+||sh.upx.com.br^
+||sh1.upx.com.br^
+||sh2.upx.com.br^
+||audio.bb07.upx.net.br^
+||6d9a.webradio.upx.net.br^
+||0218.live.upx.net.br^
+||8a3c.live.upx.net.br^
+||5940.live.upx.net.br^
+
+# --------------------------------------------------------------
+# [21] DoH - DNS over HTTPS (contorno de bloqueio DNS)
+# Resolvers públicos que aplicativos e browsers usam para
+# contornar bloqueios DNS do Pi-hole/AdGuard Home.
+# ATENÇÃO: Para bloquear DoT (DNS over TLS), bloqueie também
+# a porta 853/TCP no firewall do roteador/gateway.
+# --------------------------------------------------------------
+||cloudflare-dns.com^
+||1dot1dot1dot1.cloudflare-dns.com^
+||mozilla.cloudflare-dns.com^
+||dns.google^
+||dns.google.com^
+||dns64.dns.google^
+||dns.adguard.com^
+||dns.adguard-dns.com^
+||dns.nextdns.io^
+||dns.quad9.net^
+||dns9.quad9.net^
+||doh.opendns.com^
+||doh.cleanbrowsing.org^
+||doh.xfinity.com^
+||dns.alidns.com^
+||doh.dns.sb^
+||doh.sb^
+||doh.libredns.gr^
+||dns.controld.com^
+||freedns.controld.com^
+
+# ============================================================
+# FIM DA LISTA
+# ============================================================
