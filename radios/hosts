@@ -1,0 +1,312 @@
+# ============================================================
+# BLACKLIST - Streaming de Música & Rádios Online (Brasil)
+# Formato: Hosts File (Pi-hole / /etc/hosts)
+# Versão: 1.1 | Data: 2026-06-24
+# Descrição: Bloqueia plataformas de streaming de música e
+#            rádios online para uso em ambiente corporativo.
+# Uso Pi-hole: adicione como Adlist local ou importe em Blacklist
+# ============================================================
+
+# --------------------------------------------------------------
+# [1] SPOTIFY
+# Plataforma de streaming de música mais popular do mundo.
+# Inclui domínios principais, CDN de áudio/vídeo e APIs.
+# --------------------------------------------------------------
+0.0.0.0 spotify.com
+0.0.0.0 open.spotify.com
+0.0.0.0 play.spotify.com
+0.0.0.0 api.spotify.com
+0.0.0.0 scdn.co
+0.0.0.0 audio-fa.scdn.co
+0.0.0.0 audio-akp.scdn.co
+0.0.0.0 audio4.scdn.co
+0.0.0.0 pscdn.co
+0.0.0.0 spotifycdn.com
+0.0.0.0 spotifycdn.net
+0.0.0.0 spoti.fi
+0.0.0.0 byspotify.com
+0.0.0.0 spotifycharts.com
+0.0.0.0 spotifycodes.com
+0.0.0.0 spotify-everywhere.com
+0.0.0.0 spotify.design
+0.0.0.0 apresolve.spotify.com
+0.0.0.0 dealer.spotify.com
+0.0.0.0 ap.spotify.com
+0.0.0.0 audio-ak.cdn.spotify.com
+0.0.0.0 video-ak.cdn.spotify.com
+0.0.0.0 video-akpcw.spotifycdn.com
+0.0.0.0 video-akpcw-cdn-spotify-com.akamaized.net
+
+# --------------------------------------------------------------
+# [2] DEEZER
+# Plataforma de streaming francesa com forte presença no Brasil.
+# Inclui CDN de mídia, APIs e proxies de conteúdo.
+# --------------------------------------------------------------
+0.0.0.0 deezer.com
+0.0.0.0 www.deezer.com
+0.0.0.0 api.deezer.com
+0.0.0.0 media.deezer.com
+0.0.0.0 img.deezer.com
+0.0.0.0 pipe.deezer.com
+0.0.0.0 dzcdn.net
+0.0.0.0 e-cdn.deezer.com
+0.0.0.0 e-cdns-proxy-2.deezer.com
+0.0.0.0 cdns-proxy.deezer.com
+
+# --------------------------------------------------------------
+# [3] SOUNDCLOUD
+# Plataforma de streaming e upload de áudio independente.
+# Muito usada para músicas autorais e podcasts.
+# --------------------------------------------------------------
+0.0.0.0 soundcloud.com
+0.0.0.0 api.soundcloud.com
+0.0.0.0 w.soundcloud.com
+0.0.0.0 m.soundcloud.com
+0.0.0.0 sndcdn.com
+0.0.0.0 cf-hls-opus-media.sndcdn.com
+0.0.0.0 cf-hls-media.sndcdn.com
+0.0.0.0 i1.sndcdn.com
+0.0.0.0 wis.sndcdn.com
+
+# --------------------------------------------------------------
+# [4] TIDAL
+# Plataforma de streaming de alta fidelidade (HiFi/MQA).
+# Conhecida pelo áudio em qualidade lossless.
+# --------------------------------------------------------------
+0.0.0.0 tidal.com
+0.0.0.0 listen.tidal.com
+0.0.0.0 desktop.tidal.com
+0.0.0.0 api.tidal.com
+0.0.0.0 audio.tidal.com
+0.0.0.0 cdn.tidal.com
+0.0.0.0 wimpmusic.com
+
+# --------------------------------------------------------------
+# [5] AMAZON MUSIC
+# Serviço de streaming de música da Amazon.
+# --------------------------------------------------------------
+0.0.0.0 music.amazon.com
+0.0.0.0 music.amazon.com.br
+0.0.0.0 amazonmusic.com
+
+# --------------------------------------------------------------
+# [6] YOUTUBE MUSIC
+# Serviço de streaming de música do Google/YouTube.
+# ATENÇÃO: bloquear youtube.com impacta todos os serviços YouTube.
+# --------------------------------------------------------------
+0.0.0.0 music.youtube.com
+
+# --------------------------------------------------------------
+# [7] APPLE MUSIC
+# Serviço de streaming de música da Apple.
+# ATENÇÃO: pode impactar outros serviços Apple se bloqueado amplo.
+# --------------------------------------------------------------
+0.0.0.0 music.apple.com
+0.0.0.0 audio.itunes.apple.com
+0.0.0.0 genius.apple.com
+0.0.0.0 itunes.apple.com
+
+# --------------------------------------------------------------
+# [8] NAPSTER
+# Um dos primeiros serviços de streaming de música.
+# Ainda ativo com assinatura paga.
+# --------------------------------------------------------------
+0.0.0.0 napster.com
+0.0.0.0 api.napster.com
+
+# --------------------------------------------------------------
+# [9] MIXCLOUD
+# Plataforma de streaming para DJs, podcasts e rádios online.
+# --------------------------------------------------------------
+0.0.0.0 mixcloud.com
+0.0.0.0 audio-cdn.mixcloud.com
+0.0.0.0 stream.mixcloud.com
+
+# --------------------------------------------------------------
+# [10] BOOMPLAY
+# Serviço de streaming de música africano com presença global.
+# --------------------------------------------------------------
+0.0.0.0 boomplay.com
+
+# --------------------------------------------------------------
+# [11] RESSO / TIKTOK MUSIC
+# Serviço de streaming de música do grupo ByteDance (TikTok).
+# --------------------------------------------------------------
+0.0.0.0 resso.com
+0.0.0.0 resstatic.com
+
+# --------------------------------------------------------------
+# [12] QOBUZ
+# Plataforma de streaming de música em alta resolução.
+# Focada em qualidade audiófila (FLAC/Hi-Res).
+# --------------------------------------------------------------
+0.0.0.0 qobuz.com
+0.0.0.0 stream.qobuz.com
+
+# --------------------------------------------------------------
+# [13] VAGALUME
+# Portal brasileiro de letras de música com rádio online.
+# --------------------------------------------------------------
+0.0.0.0 vagalume.com.br
+
+# --------------------------------------------------------------
+# [14] SUPERPLAYER
+# Plataforma brasileira de streaming e curadoria musical.
+# --------------------------------------------------------------
+0.0.0.0 superplayer.fm
+
+# --------------------------------------------------------------
+# [15] AGREGADORES DE RÁDIO ONLINE
+# Sites que reúnem e reproduzem streams de rádios de todo o mundo.
+# Funcionam como portais centralizadores de escuta online.
+# --------------------------------------------------------------
+0.0.0.0 tunein.com
+0.0.0.0 radio.garden
+0.0.0.0 onlineradiobox.com
+0.0.0.0 mytuner-radio.com
+0.0.0.0 radios.com.br
+0.0.0.0 radio-ao-vivo.com
+0.0.0.0 online.radio.br
+0.0.0.0 radiosonlinebrasil.com.br
+0.0.0.0 radios-brasil.com
+0.0.0.0 tudoradio.com
+0.0.0.0 radiosaovivo.net
+0.0.0.0 frequenciabrasil.com.br
+0.0.0.0 radioline.co
+0.0.0.0 live365.com
+0.0.0.0 iheartradio.com
+0.0.0.0 listenlive.eu
+0.0.0.0 streema.com
+0.0.0.0 radioways.com
+0.0.0.0 cxradio.com.br
+
+# --------------------------------------------------------------
+# [16] RÁDIOS NACIONAIS - GRANDES REDES
+# Principais emissoras brasileiras com transmissão online ao vivo.
+# Jovem Pan, CBN, Antena 1, Band, 89FM, 98FM, Gaúcha etc.
+# --------------------------------------------------------------
+0.0.0.0 jovempan.com.br
+0.0.0.0 panflix.com.br
+0.0.0.0 cbn.com.br
+0.0.0.0 antena1.com.br
+0.0.0.0 mix.com.br
+0.0.0.0 89fm.com.br
+0.0.0.0 98fm.com.br
+0.0.0.0 band.com.br
+0.0.0.0 bandnews.com.br
+0.0.0.0 transamerica.com.br
+0.0.0.0 metropolitana.com.br
+0.0.0.0 metropolitanafm.com.br
+0.0.0.0 stream.metropolitanafm.com.br
+0.0.0.0 api.metropolitanafm.com.br
+0.0.0.0 energia97.com.br
+0.0.0.0 energia.fm
+0.0.0.0 kissfm.com.br
+0.0.0.0 novabrasil.com.br
+0.0.0.0 radiogaucha.com.br
+0.0.0.0 gauchazh.clicrbs.com.br
+0.0.0.0 clubefm.com.br
+
+# --------------------------------------------------------------
+# [17] RÁDIOS NACIONAIS - REGIONAIS E POPULARES
+# Emissoras com alcance regional e forte presença na internet.
+# --------------------------------------------------------------
+0.0.0.0 jbfm.com.br
+0.0.0.0 supertupi.com.br
+0.0.0.0 radiomix.com.br
+0.0.0.0 saudadefm.com.br
+0.0.0.0 alpha.fm.br
+0.0.0.0 massafm.com.br
+0.0.0.0 radiomassa.com.br
+0.0.0.0 flashback.fm.br
+0.0.0.0 radiocidade.com.br
+0.0.0.0 radiocultura.com.br
+0.0.0.0 classicpan.com.br
+0.0.0.0 bossanovaradio.com.br
+
+# --------------------------------------------------------------
+# [18] INFRAESTRUTURA DE STREAMING PARA RÁDIOS
+# Plataformas e servidores usados por emissoras brasileiras para
+# transmitir áudio online. Bloquear impede que apps e sites de
+# rádio consigam entregar o stream de áudio ao usuário.
+# --------------------------------------------------------------
+0.0.0.0 brasilstream.com.br
+0.0.0.0 brlogic.com
+0.0.0.0 hoost.com.br
+0.0.0.0 sejahost.com.br
+0.0.0.0 brascast.com
+0.0.0.0 brstream.com.br
+0.0.0.0 abastreaming.com
+0.0.0.0 centova.com
+0.0.0.0 shoutca.st
+0.0.0.0 shoutcast.com
+0.0.0.0 icecast.org
+0.0.0.0 radionomy.com
+0.0.0.0 streamguys.com
+0.0.0.0 airtime.pro
+0.0.0.0 sonic.studio
+
+# --------------------------------------------------------------
+# [19] STREAMTHEWORLD / AUDACY
+# CDN de streaming de rádio ao vivo usado por grandes emissoras
+# brasileiras e internacionais (ex: Metropolitana FM, Mix FM).
+# Bloquear impede a entrega do stream de áudio dessas rádios.
+# --------------------------------------------------------------
+0.0.0.0 streamtheworld.com
+0.0.0.0 streamtheworld.net
+0.0.0.0 live.streamtheworld.com
+0.0.0.0 NS01.streamtheworld.net
+0.0.0.0 NS02.streamtheworld.net
+0.0.0.0 NS03.streamtheworld.net
+0.0.0.0 NS04.streamtheworld.net
+
+# --------------------------------------------------------------
+# [20] UPX TECHNOLOGIES - CDN DE STREAMING DE RÁDIO
+# Infraestrutura brasileira de streaming usada por centenas de
+# rádios nacionais. Bloquear interrompe o áudio das rádios
+# que utilizam a plataforma UPX como servidor de stream.
+# --------------------------------------------------------------
+0.0.0.0 upx.com.br
+0.0.0.0 upx.net.br
+0.0.0.0 live.cdn.upx.com
+0.0.0.0 sc4s.cdn.upx.com
+0.0.0.0 sh.upx.com.br
+0.0.0.0 sh1.upx.com.br
+0.0.0.0 sh2.upx.com.br
+0.0.0.0 audio.bb07.upx.net.br
+0.0.0.0 6d9a.webradio.upx.net.br
+0.0.0.0 0218.live.upx.net.br
+0.0.0.0 8a3c.live.upx.net.br
+0.0.0.0 5940.live.upx.net.br
+
+# --------------------------------------------------------------
+# [21] DoH - DNS over HTTPS (contorno de bloqueio DNS)
+# Resolvers públicos que aplicativos e browsers usam para
+# contornar bloqueios DNS do Pi-hole/AdGuard Home.
+# ATENÇÃO: Para bloquear DoT (DNS over TLS), bloqueie também
+# a porta 853/TCP no firewall do roteador/gateway.
+# --------------------------------------------------------------
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 dns.google
+0.0.0.0 dns.google.com
+0.0.0.0 dns64.dns.google
+0.0.0.0 dns.adguard.com
+0.0.0.0 dns.adguard-dns.com
+0.0.0.0 dns.nextdns.io
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns9.quad9.net
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.cleanbrowsing.org
+0.0.0.0 doh.xfinity.com
+0.0.0.0 dns.alidns.com
+0.0.0.0 doh.dns.sb
+0.0.0.0 doh.sb
+0.0.0.0 doh.libredns.gr
+0.0.0.0 dns.controld.com
+0.0.0.0 freedns.controld.com
+
+# ============================================================
+# FIM DA LISTA
+# ============================================================
