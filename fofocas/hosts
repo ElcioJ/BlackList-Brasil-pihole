@@ -1,0 +1,205 @@
+# ============================================================
+# BLACKLIST - Sites de Fofoca, Celebridades e Entretenimento BR
+# Versão: 5.0 FINAL | Data: 24/06/2026
+# Formato: hosts (Pi-hole, dnsmasq, /etc/hosts)
+# Total: 162 entradas
+# ============================================================
+
+# ---- [01] PORTAIS NACIONAIS DE FOFOCA PURA (14) ----
+0.0.0.0 ofuxico.com.br
+0.0.0.0 portalleodias.com
+0.0.0.0 areavip.com.br
+0.0.0.0 obuxixo.com.br
+0.0.0.0 aquitemfofoca.com.br
+0.0.0.0 alfinetei.com.br
+0.0.0.0 minhafofoca.com.br
+0.0.0.0 fofoca.tv.br
+0.0.0.0 portalfofoca.com.br
+0.0.0.0 fofocando.com.br
+0.0.0.0 famososecelebridades.com.br
+0.0.0.0 portalfamosos.com.br
+0.0.0.0 choquei.com
+0.0.0.0 todafofoca.com
+
+# ---- [02] REVISTAS E PORTAIS DE CELEBRIDADES (23) ----
+0.0.0.0 caras.com.br
+0.0.0.0 contigo.com.br
+0.0.0.0 purepeople.com.br
+0.0.0.0 catracalivre.com.br
+0.0.0.0 rd1.com.br
+0.0.0.0 jetss.com.br
+0.0.0.0 starsinsider.com
+0.0.0.0 papelpop.com
+0.0.0.0 todateen.com.br
+0.0.0.0 revistamaxima.com.br
+0.0.0.0 revistaanamaria.com.br
+0.0.0.0 gkpb.com.br
+0.0.0.0 elle.com.br
+0.0.0.0 claudia.abril.com.br
+0.0.0.0 capricho.abril.com.br
+0.0.0.0 veja.abril.com.br
+0.0.0.0 bebe.abril.com.br
+0.0.0.0 bebemamae.com
+0.0.0.0 fashionbubbles.com
+0.0.0.0 purebreak.com.br
+0.0.0.0 guiadasemana.com.br
+0.0.0.0 joaobidu.com.br
+0.0.0.0 altoastral.joaobidu.com.br
+
+# ---- [03] PORTAIS DE ENTRETENIMENTO / TV / AUDIÊNCIA (14) ----
+0.0.0.0 bastidoresdatv.com.br
+0.0.0.0 oplanetatv.clickgratis.com.br
+0.0.0.0 portaldatv.com.br
+0.0.0.0 tvpop.com.br
+0.0.0.0 audienciaaovivo.com
+0.0.0.0 portalaltadefinicao.com
+0.0.0.0 maisnovela.com.br
+0.0.0.0 tvfoco.uai.com.br
+0.0.0.0 feedtv.news
+0.0.0.0 ouniversodatv.com
+0.0.0.0 ocanal.com
+0.0.0.0 portalpopline.com.br
+0.0.0.0 spinoff.com.br
+0.0.0.0 observatoriodatv.com.br
+
+# ---- [04] UOL (12) ----
+0.0.0.0 hugogloss.uol.com.br
+0.0.0.0 observatoriodosfamosos.uol.com.br
+0.0.0.0 celebridades.uol.com.br
+0.0.0.0 splash.uol.com.br
+0.0.0.0 natelinha.uol.com.br
+0.0.0.0 noticiasdatv.uol.com.br
+0.0.0.0 f5.folha.uol.com.br
+0.0.0.0 harpersbazaar.uol.com.br
+0.0.0.0 tvefamosos.uol.com.br
+0.0.0.0 agora.folha.uol.com.br
+0.0.0.0 redetv.uol.com.br
+0.0.0.0 mediatalks.uol.com.br
+
+# ---- [05] GLOBO (10) ----
+0.0.0.0 revistaquem.globo.com
+0.0.0.0 extra.globo.com
+0.0.0.0 ego.globo.com
+0.0.0.0 gshow.globo.com
+0.0.0.0 g1.globo.com
+0.0.0.0 glamour.globo.com
+0.0.0.0 revistamarieclaire.globo.com
+0.0.0.0 revistamonet.globo.com
+0.0.0.0 gq.globo.com
+0.0.0.0 oglobo.globo.com
+
+# ---- [06] iG (7) ----
+0.0.0.0 gente.ig.com.br
+0.0.0.0 odia.ig.com.br
+0.0.0.0 lobianco.ig.com.br
+0.0.0.0 tonafama.ig.com.br
+0.0.0.0 inmagazine.ig.com.br
+0.0.0.0 selecoes.ig.com.br
+0.0.0.0 araraquara.ig.com.br
+
+# ---- [07] R7 / RECORD (4) ----
+0.0.0.0 entretenimento.r7.com
+0.0.0.0 record.r7.com
+0.0.0.0 estrelando.r7.com
+0.0.0.0 areademulher.r7.com
+
+# ---- [08] SBT (2) ----
+0.0.0.0 tv.sbt.com.br
+0.0.0.0 sbtnews.sbt.com.br
+
+# ---- [09] PORTAIS MISTOS (30) ----
+# AVISO: portais com conteúdo além de fofoca — remova os que não quiser bloquear
+0.0.0.0 metropoles.com
+0.0.0.0 terra.com.br
+0.0.0.0 em.com.br
+0.0.0.0 correiodobrasil.com.br
+0.0.0.0 combrasiltv.com.br
+0.0.0.0 midiamax.com.br
+0.0.0.0 noticiasaominuto.com.br
+0.0.0.0 itatiaia.com.br
+0.0.0.0 saladanoticia.com.br
+0.0.0.0 111next.com.br
+0.0.0.0 massa.com.br
+0.0.0.0 adorocinema.com
+0.0.0.0 rollingstone.com.br
+0.0.0.0 bandab.com.br
+0.0.0.0 ibahia.com
+0.0.0.0 portalamazonia.com
+0.0.0.0 ndmais.com.br
+0.0.0.0 hojeemdia.com.br
+0.0.0.0 atribuna.com.br
+0.0.0.0 aloalobahia.com
+0.0.0.0 dol.com.br
+0.0.0.0 d24am.com
+0.0.0.0 gauchazh.clicrbs.com.br
+0.0.0.0 folhavitoria.com.br
+0.0.0.0 agazetadoamapa.com.br
+0.0.0.0 portalsg.com.br
+0.0.0.0 billboard.com.br
+0.0.0.0 vogue.globo.com
+0.0.0.0 francesnews.com.br
+0.0.0.0 jovempan.com.br
+
+# ---- [10] PORTAIS MENORES / BLOGS (15) ----
+0.0.0.0 ospaparazzi.com
+0.0.0.0 agoravale.com.br
+0.0.0.0 observatoriodosfamosos.com.br
+0.0.0.0 observatoriog.com.br
+0.0.0.0 estrelando.com.br
+0.0.0.0 obusilis.com.br
+0.0.0.0 canaldovannucci.com.br
+0.0.0.0 marciapiovesan.com.br
+0.0.0.0 portaldoholanda.com.br
+0.0.0.0 tmc.com.br
+0.0.0.0 jornalmassa.com.br
+0.0.0.0 portalzumm.com.br
+0.0.0.0 pitadasdeentretenimento.com.br
+0.0.0.0 cnnbrasil.com.br
+0.0.0.0 uai.com.br
+
+# ---- [11] OUTROS (5) ----
+0.0.0.0 metropolitana.com.br
+0.0.0.0 osaogoncalo.com.br
+0.0.0.0 maisregiao.com.br
+0.0.0.0 tvprime.correiobraziliense.com.br
+0.0.0.0 1news.correiobraziliense.com.br
+
+# ============================================================
+# SEÇÃO REGIONAL — Interior de SP
+# ============================================================
+
+# ---- [12] RIBEIRÃO PRETO (14) ----
+0.0.0.0 acidadeon.com
+0.0.0.0 revide.com.br
+0.0.0.0 jornalribeirao.com.br
+0.0.0.0 portalrpsp.com.br
+0.0.0.0 intertvweb.com.br
+0.0.0.0 016news.com.br
+0.0.0.0 016eventos.com.br
+0.0.0.0 portal016.com
+0.0.0.0 emribeirao.com
+0.0.0.0 noticiasribeiraopreto.com.br
+0.0.0.0 tribunaribeirao.com.br
+0.0.0.0 thmais.com.br
+0.0.0.0 diariodaregiao.com.br
+0.0.0.0 sampi.net.br
+
+# ---- [13] SERTÃOZINHO (2) ----
+0.0.0.0 emfocosertaozinho.com.br
+0.0.0.0 jornalagorasertaozinho.com.br
+
+# ---- [14] ARARAQUARA (5) ----
+0.0.0.0 portalmorada.com.br
+0.0.0.0 araraquaraagora.com
+0.0.0.0 araraquara24horas.com.br
+0.0.0.0 folhacidade.net
+0.0.0.0 jornaldeararaquara.com.br
+
+# ---- [15] BARRETOS (1) ----
+0.0.0.0 jornaldebarretos.com.br
+
+# ---- [16] INTERIOR SP REGIONAL (4) ----
+0.0.0.0 violashow.com.br
+0.0.0.0 cbnribeirao.com.br
+0.0.0.0 atribunaregional.com.br
+0.0.0.0 gazetasp.com.br
