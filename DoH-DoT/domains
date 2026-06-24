@@ -1,0 +1,105 @@
+! ============================================================
+! BLACKLIST — Servidores DNS-over-HTTPS (DoH) e DNS-over-TLS (DoT) Públicos
+! Versão: 1.0 | Data: 24/06/2026
+! Objetivo: Forçar dispositivos a usar o DNS local (Pi-hole/AdGuard)
+! Compatível com: AdGuard Home e Pi-hole (formato adblock)
+! Total: 55 entradas
+! ============================================================
+
+! ---- CLOUDFLARE ----
+||cloudflare-dns.com^
+||1dot1dot1dot1.cloudflare-dns.com^
+||security.cloudflare-dns.com^
+||family.cloudflare-dns.com^
+||dns.cloudflare.com^
+
+! ---- GOOGLE ----
+||dns.google^
+||dns.google.com^
+||8888.google^
+
+! ---- QUAD9 ----
+||dns.quad9.net^
+||dns9.quad9.net^
+||dns10.quad9.net^
+||dns11.quad9.net^
+||quad9.net^
+
+! ---- OPENDNS / CISCO ----
+||doh.opendns.com^
+||doh.familyshield.opendns.com^
+||sandbox.opendns.com^
+||opendns.com^
+
+! ---- NEXTDNS ----
+||dns.nextdns.io^
+||nextdns.io^
+
+! ---- ADGUARD DNS (externo) ----
+||dns.adguard.com^
+||dns-family.adguard.com^
+||dns-unfiltered.adguard.com^
+||adguard-dns.com^
+
+! ---- COMODO SECURE ----
+||doh.comodo.com^
+||dot.comodo.com^
+
+! ---- CLEANBROWSING ----
+||doh.cleanbrowsing.org^
+||security-filter-dns.cleanbrowsing.org^
+||adult-filter-dns.cleanbrowsing.org^
+||family-filter-dns.cleanbrowsing.org^
+
+! ---- ALTERNATE DNS ----
+||dns.alternate-dns.com^
+||doh.alternate-dns.com^
+
+! ---- CONTROL D ----
+||freedns.controld.com^
+||dns.controld.com^
+||controld.com^
+
+! ---- MULLVAD ----
+||dns.mullvad.net^
+||adblock.dns.mullvad.net^
+||base.dns.mullvad.net^
+||extended.dns.mullvad.net^
+||all.dns.mullvad.net^
+
+! ---- DNSSB ----
+||doh.dns.sb^
+||dns.sb^
+
+! ---- LIBREDNS ----
+||doh.libredns.gr^
+
+! ---- DIGITALCOURAGE ----
+||dns2.digitalcourage.de^
+
+! ---- SWITCH.CH ----
+||dns.switch.ch^
+
+! ---- DNSFORGE ----
+||dnsforge.de^
+
+! ---- AhaDNS ----
+||blitz.ahadns.com^
+||doh.la.ahadns.com^
+||doh.nl.ahadns.com^
+
+! ---- MOZILLA / FIREFOX ----
+||mozilla.cloudflare-dns.com^
+||firefox.dns.nextdns.io^
+
+! ---- APLICATIVOS / BROWSERS CONHECIDOS ----
+! Chrome/Android usa esses endpoints para DoH automático
+||dns.google.com^
+||chrome.cloudflare-dns.com^
+
+! ---- GENÉRICOS / OUTROS ----
+||doh.xfinity.com^
+||doh.sb^
+||doh.dns.apple.com^
+||mask.icloud.com^
+||mask-h2.icloud.com^
