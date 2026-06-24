@@ -1,0 +1,108 @@
+# ============================================================
+# BLACKLIST — Servidores DNS-over-HTTPS (DoH) e DNS-over-TLS (DoT) Públicos
+# Versão: 1.0 | Data: 24/06/2026
+# Objetivo: Forçar dispositivos a usar o DNS local (Pi-hole/AdGuard)
+# Formato: hosts (Pi-hole, dnsmasq, /etc/hosts)
+# Total: 55 entradas
+# ============================================================
+
+# ---- CLOUDFLARE ----
+0.0.0.0 cloudflare-dns.com
+0.0.0.0 1dot1dot1dot1.cloudflare-dns.com
+0.0.0.0 security.cloudflare-dns.com
+0.0.0.0 family.cloudflare-dns.com
+0.0.0.0 dns.cloudflare.com
+
+# ---- GOOGLE ----
+0.0.0.0 dns.google
+0.0.0.0 dns.google.com
+0.0.0.0 8888.google
+
+# ---- QUAD9 ----
+0.0.0.0 dns.quad9.net
+0.0.0.0 dns9.quad9.net
+0.0.0.0 dns10.quad9.net
+0.0.0.0 dns11.quad9.net
+0.0.0.0 quad9.net
+
+# ---- OPENDNS / CISCO ----
+0.0.0.0 doh.opendns.com
+0.0.0.0 doh.familyshield.opendns.com
+0.0.0.0 sandbox.opendns.com
+0.0.0.0 opendns.com
+
+# ---- NEXTDNS ----
+0.0.0.0 dns.nextdns.io
+0.0.0.0 nextdns.io
+
+# ---- ADGUARD DNS (externo) ----
+0.0.0.0 dns.adguard.com
+0.0.0.0 dns-family.adguard.com
+0.0.0.0 dns-unfiltered.adguard.com
+0.0.0.0 adguard-dns.com
+
+# ---- COMODO SECURE ----
+0.0.0.0 doh.comodo.com
+0.0.0.0 dot.comodo.com
+
+# ---- CLEANBROWSING ----
+0.0.0.0 doh.cleanbrowsing.org
+0.0.0.0 security-filter-dns.cleanbrowsing.org
+0.0.0.0 adult-filter-dns.cleanbrowsing.org
+0.0.0.0 family-filter-dns.cleanbrowsing.org
+
+# ---- ALTERNATE DNS ----
+0.0.0.0 dns.alternate-dns.com
+0.0.0.0 doh.alternate-dns.com
+
+# ---- CONTROL D ----
+0.0.0.0 freedns.controld.com
+0.0.0.0 dns.controld.com
+0.0.0.0 controld.com
+
+# ---- MULLVAD ----
+0.0.0.0 dns.mullvad.net
+0.0.0.0 adblock.dns.mullvad.net
+0.0.0.0 base.dns.mullvad.net
+0.0.0.0 extended.dns.mullvad.net
+0.0.0.0 all.dns.mullvad.net
+
+# ---- DNSSB ----
+0.0.0.0 doh.dns.sb
+0.0.0.0 dns.sb
+
+# ---- LIBREDNS ----
+0.0.0.0 doh.libredns.gr
+
+# ---- DIGITALCOURAGE ----
+0.0.0.0 dns2.digitalcourage.de
+
+# ---- SWITCH.CH ----
+0.0.0.0 dns.switch.ch
+
+# ---- DNSFORGE ----
+0.0.0.0 dnsforge.de
+
+# ---- AhaDNS ----
+0.0.0.0 blitz.ahadns.com
+0.0.0.0 doh.la.ahadns.com
+0.0.0.0 doh.nl.ahadns.com
+
+# ---- MOZILLA / FIREFOX ----
+0.0.0.0 mozilla.cloudflare-dns.com
+0.0.0.0 firefox.dns.nextdns.io
+
+# ---- CHROME / ANDROID ----
+0.0.0.0 dns.google.com
+0.0.0.0 chrome.cloudflare-dns.com
+
+# ---- APPLE iCloud Private Relay ----
+0.0.0.0 doh.dns.apple.com
+0.0.0.0 mask.icloud.com
+0.0.0.0 mask-h2.icloud.com
+
+# ---- XFINITY / COMCAST ----
+0.0.0.0 doh.xfinity.com
+
+# ---- OUTROS ----
+0.0.0.0 doh.sb
